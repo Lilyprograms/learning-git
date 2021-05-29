@@ -1,1 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: aliceblue;
+}
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #12125a;
+  color: white;
+  padding: 15px 10px;
+  align-items: center;
+}
+.nav h1 {
+  font-size: 1.3em;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.nav ul li a {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: white;
+  padding: 10px;
+}
