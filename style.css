@@ -6,7 +6,7 @@
 }
 body {
   background-color: aliceblue;
-  color: #444;
+  color: #000;
 }
 
 .nav {
@@ -67,4 +67,14 @@ body {
   outline: none;
   cursor: pointer;
   width: 100%;
+}
+.footer {
+  text-align: center;
+  background-color: #12125a;
+  color: #fff;
+  padding: 20px 0;
+  width: 100%;
+}
+.footer p {
+  font-size: 0.8em;
 }
