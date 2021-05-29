@@ -30,3 +30,40 @@ body {
   color: white;
   padding: 10px;
 }
+.form-container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+.form-header {
+  text-align: center;
+  padding: 10px 0;
+}
+.form-header h1 {
+  font-size: 1.1em;
+}
+.form .form-group {
+  padding-bottom: 10px;
+}
+.form .form-group label {
+  font-size: 0.8em;
+  display: block;
+  padding-bottom: 3px;
+}
+.form .form-group input,
+.form .form-group select {
+  display: block;
+  width: 100%;
+  padding: 10px 5px;
+  outline: none;
+  border: 1px solid #dedede;
+}
+.form .form-group button {
+  background-color: #12125a;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 0.8em;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+}
